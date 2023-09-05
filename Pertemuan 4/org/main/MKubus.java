@@ -8,12 +8,13 @@
 
 package org.main;
 
-import org.bangunruang.*;
-import org.bangundatar.*;
+import org.bangunruang.Kubus;
+import org.bangundatar.BujurSangkar;
 
 public class MKubus{
 	public static void main(String[] args){
 		BujurSangkar bujursangkar = new BujurSangkar(4);
+		// TODO Gunakan method hitungLuasAlas() untuk mencari luas permukaan kubus
 		System.out.println("Luas Permukaan Kubus dengan panjang sisi 4 satuan : "+ bujursangkar.hitungLuas());
 		
 		Kubus kubus = new Kubus(bujursangkar);
